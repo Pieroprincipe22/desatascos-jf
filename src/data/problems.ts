@@ -1,10 +1,10 @@
 ﻿export const problems = [
   "WC atascado",
-  "Fregadero atascado",
-  "Ducha o bañera que no traga",
+  "Fregadero que no traga",
+  "Ducha o bañera atascada",
   "Tuberías con malos olores",
   "Bajantes atascadas",
   "Atascos en comunidades",
-  "Problemas de fontanería",
-  "Fugas o averías de agua",
+  "Fugas de agua",
+  "Averías de fontanería",
 ];

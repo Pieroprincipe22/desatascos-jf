@@ -2,21 +2,21 @@
   {
     title: "Desatascos urgentes",
     description:
-      "Solucionamos atascos en WC, fregaderos, duchas, bajantes y tuberías con una atención rápida y profesional.",
+      "Actuamos ante atascos en WC, fregaderos, duchas, bajantes y tuberías, ayudando a resolver el problema con rapidez y profesionalidad.",
   },
   {
     title: "Camión cuba",
     description:
-      "Servicio de camión cuba para trabajos de limpieza, succión y desatascos más complejos en redes de saneamiento.",
+      "Servicio de camión cuba para trabajos de limpieza, succión y desatascos más complejos en redes de saneamiento y tuberías.",
   },
   {
     title: "Limpieza de tuberías",
     description:
-      "Limpieza de tuberías para eliminar restos, grasa, suciedad y acumulaciones que puedan provocar atascos o malos olores.",
+      "Eliminamos restos, grasa, suciedad y acumulaciones que pueden provocar atascos, malos olores o problemas en la instalación.",
   },
   {
     title: "Fontanería",
     description:
-      "Trabajos de fontanería para resolver averías, fugas, reparaciones y problemas relacionados con instalaciones de agua.",
+      "Realizamos trabajos de fontanería para resolver fugas, averías, reparaciones e incidencias relacionadas con instalaciones de agua.",
   },
 ];
