@@ -1,0 +1,35 @@
+﻿---
+import "../styles/global.css";
+import { siteConfig } from "../data/site";
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const {
+  title = `${siteConfig.name} | Desatascos en ${siteConfig.city}`,
+  description = siteConfig.description,
+} = Astro.props;
+
+const canonicalUrl = new URL(Astro.url.pathname, siteConfig.url);
+---
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content={description} />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="canonical" href={canonicalUrl} />
+
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+
+    <title>{title}</title>
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>

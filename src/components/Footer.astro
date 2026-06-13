@@ -1,0 +1,16 @@
+﻿---
+import { siteConfig } from "../data/site";
+---
+
+<footer class="bg-slate-950 py-10 text-white">
+  <div class="mx-auto flex max-w-7xl flex-col gap-4 px-4 md:flex-row md:items-center md:justify-between">
+    <div>
+      <p class="text-lg font-black">{siteConfig.name}</p>
+      <p class="text-sm text-slate-400">Desatascos, camión cuba, limpieza de tuberías y fontanería en {siteConfig.city}.</p>
+    </div>
+
+    <p class="text-sm text-slate-500">
+      © {new Date().getFullYear()} {siteConfig.name}. Todos los derechos reservados.
+    </p>
+  </div>
+</footer>
